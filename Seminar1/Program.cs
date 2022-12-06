@@ -82,7 +82,6 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 int current = 1;
 int size = 2;
-int a = current % size;
 
 while(current <= n)
 {
