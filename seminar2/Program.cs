@@ -95,4 +95,26 @@ int Numbers(int number)
 
 */
 
-// Задача
+// Задача №10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+
+/*
+
+Console.WriteLine("Введите трёхзначное число: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+
+int Number(int num)
+{
+    int second = num1 % 100;
+    int one = second / 10;
+    
+    
+    return one;
+}
+
+
+int result = Number(num1);
+Console.WriteLine(result);
+
+*/
+
+// 
