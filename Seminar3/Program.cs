@@ -49,7 +49,21 @@ Quandrant(num);
 
 // Задача №19: Напишите программу, которая принимает на вход число и проверяет, является ли оно палиндромом.
 
-bool Numbers(int zet)
+/*
+
+bool Num(int n)
 {
-    
+    int r = 0, nn = n;
+    while (n > 0)
+    {
+        r = r * 10 + n % 10;
+        n = n / 10;
+    }
+    return r == nn;
 }
+Console.Write("n=");
+int n = Convert.ToInt32(Console.ReadLine());
+if (Num(n)) Console.WriteLine("Палиндром");
+else Console.WriteLine("Не палиндром");
+
+*/
