@@ -128,3 +128,27 @@ int result = Numb(a, b);
 Console.WriteLine(result);
 
 */
+
+//Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+
+/*
+
+Console.WriteLine("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+int Massif(int n)
+{
+    int x = 1;
+    int sum = 0;
+    while(n > 0)
+    {
+        x = n % 10;
+        sum = sum + x;
+        n = n / 10;
+    }
+    return sum;
+}
+int result = Massif(n);
+Console.WriteLine(result);
+
+*/
